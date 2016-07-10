@@ -1,2 +1,2 @@
 # superSonar
-##A mobile wenApp which is private site
+##A mobile webApp which is private site
