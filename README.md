@@ -1,2 +1,2 @@
 # superSonar
-for fun
+a mobile wenApp which is private site
