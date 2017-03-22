@@ -1,0 +1,13 @@
+html{
+    height: 100% !important;
+}
+.ui.menu .item:before {
+    background:none; !important;
+}
+
+#search{
+    padding-right: 0.5em;!important;
+}
+.ui.pushable{
+    height: 100%;
+}

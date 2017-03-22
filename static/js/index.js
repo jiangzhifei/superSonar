@@ -8,12 +8,14 @@ $(document)
             function () {
                 var source = this.childNodes[1];
                 var type = source.dataset.type
-                // console.log(type)
                 console.log(source.id)
                 var id = source.id
-                $("#"+id).api({
-                    action : type
-                });
+                // $("#"+id).api({
+                //     action : type
+                // });
+                $("#"+id).on('click',function () {
+                    window.location.href="/tech"
+                })
 
             }
         );

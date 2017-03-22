@@ -8,8 +8,9 @@
     <meta name="keywords" content="声波,互联网,技术,资讯,高并发,高可用,大数据,互联网资讯"/>
     <meta name="description" content="收集、传播互联网资讯、技术"/>
 
-    <link rel="stylesheet" type="text/css"
-          href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/site.min.css?v=1.0">
+    <!--<link rel="stylesheet" type="text/css"-->
+          <!--href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/site.min.css?v=1.0">-->
+    <link rel="stylesheet" type="text/css" href="{{ static_url("css/site.css") }}">
     <link rel="stylesheet" type="text/css"
           href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/divider.min.css?v=1.0">
     <link rel="stylesheet" type="text/css"
@@ -22,7 +23,7 @@
     <link rel="stylesheet" type="text/css"
           href="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/grid.min.css?v=1.0">
 
-    <link rel="stylesheet" type="text/css" href="assert/css/index.css?v=1.0">
+    <link rel="stylesheet" type="text/css" href=" {{ static_url("css/index.css") }}">
 
     <title>声波</title>
 </head>
@@ -64,10 +65,10 @@
     </div>
 </div>
 
-<script src="./assert/jquery.min.js?v=1.0"></script>
+<script src="{{ static_url("jquery.min.js") }}"></script>
 <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.2/components/api.min.js?v=1.0"></script>
-<script src="./assert/js/index_api.js?v=1.0"></script>
-<script src="./assert/js/index.js?v=1.0"></script>
+<script src="{{ static_url("js/index_api.js") }}"></script>
+<script src="{{ static_url("js/index.js") }}"></script>
 </body>
 
 </html>

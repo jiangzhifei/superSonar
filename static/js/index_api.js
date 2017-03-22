@@ -3,7 +3,7 @@
  */
 
        $.fn.api.settings.api= {
-           'tec': '/superSonar',
+           'tec': '/tech',
            'biz': '/superSonar',
           //  'news': '/add/{id}',
           'news':'/superSonar',

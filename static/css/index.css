@@ -1,3 +1,6 @@
+body{
+    width:100%;
+}
 #headerCon {
     background: #4CAF50 !important;
 }
